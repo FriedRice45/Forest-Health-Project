@@ -1,0 +1,42 @@
+<div class="column-layout group">
+  <img src="/assets/FHP.PNG" class="image" />
+  <igx-input-group type="border" class="input">
+    <igx-prefix>
+      <igx-icon class="icon">
+        person
+      </igx-icon>
+    </igx-prefix>
+    <igx-suffix>
+      <igx-icon class="icon">
+        clear
+      </igx-icon>
+    </igx-suffix>
+    <input type="text" igxInput />
+    <label igxLabel>Username</label>
+  </igx-input-group>
+  <igx-input-group type="border" class="input_1">
+    <igx-suffix>
+      <igx-icon class="icon">
+        clear
+      </igx-icon>
+    </igx-suffix>
+    <input type="text" igxInput />
+    <label igxLabel>Password</label>
+  </igx-input-group>
+  <button igxButton="raised" igxRipple routerLink="/picture-grid" class="button">
+    Log In
+  </button>
+  <p class="igx-typography__body-2 text">
+    Don't have an account?
+  </p>
+  <h5 *ngFor="let item of northwindCategories" class="h5">
+    Forest Health Project Photo Submission App
+  </h5>
+  <button igxButton="raised" igxRipple routerLink="/register-page" class="button_1">
+    Register
+  </button>
+  <img src="/assets/cropmark.PNG" class="image_1" />
+  <img src="/assets/cropmark2.PNG" class="image_2" />
+  <img src="/assets/cropmark3.PNG" class="image_3" />
+  <img src="/assets/cropmark4.PNG" class="image_4" />
+</div>
